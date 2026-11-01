@@ -1,0 +1,45 @@
+# Залежності (найважливіше, важить сотні мегабайтів)
+node_modules/
+jspm_packages/
+
+# Змінні оточення та секретні ключі (ніколи не пушити в Git!)
+.env
+.env.*
+!.env.example
+
+# Логи виконання та налагодження
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Системні файли ОС
+.DS_Store
+Thumbs.db
+
+# Налаштування редакторів коду та IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Директорії компіляції та збірки (якщо використовуються)
+dist/
+build/
+out/
+
+# Тестування та покриття коду
+coverage/
+.nyc_output/
+
+# Кеш інструментів
+.npm/
+.eslintcache
+
+# Локальні конфіги та секрети
+*local.json
+credentials.json
+serviceAccountKey.json
